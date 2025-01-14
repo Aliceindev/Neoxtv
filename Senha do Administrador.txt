@@ -1,0 +1,7 @@
+
+Para entrar no perfil do administrador:
+   Email: admin@admin.adm
+   Senha: admin
+
+// Local onde mostrará filmes e séries já 
+  cadastrados no banco. Na aba de listados.

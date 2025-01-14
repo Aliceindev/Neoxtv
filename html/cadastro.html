@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/cadastro.css">
+  <title>Cadastro</title>
+</head>
+<body>
+
+<form class="main-cadastro" method="POST" action="../php/registrar.php">
+  <!-- <div class="main-cadastro"> !-->
+    <div class="center-cadastro">
+      <div class="card-cadastro">
+        <h1>CADASTRO</h1>
+        <div class="textfield">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" class="input_cad" id="nome" required placeholder="Digite seu nome">
+          </div>
+          <div class="textfield">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" class="input_cad" id="idade" required  maxlength="2" placeholder="Digite sua idade ex: 18">
+          </div>
+        <div class="textfield">
+          <label for="email">Email</label>
+          <input type="text" name="email" class="input_cad" required  placeholder="Digite seu email" maxlength="200">
+        </div>
+        <div class="textfield">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" class="input_cad" required  id="senha" placeholder="Senha">
+        </div>
+        <div class="textfield_submit">
+            <input type="submit" class="btn-cadastro" value="Cadastrar" id="cadastrar" name="submit" />
+        </div>
+      </div>
+    </div>
+  <!-- </div> !-->
+</form>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.dark_background{
+    background-color: #141414;
+}
+
+.navegador{
+    background-color: transparent ;
+    box-shadow: 0px 10px 40px #00000056;
+    backdrop-filter: blur(55px);
+}
+
+.navegador li a{
+    letter-spacing: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: none;
+  }
+  
+  ::-webkit-scrollbar {
+     width: 0.3vw;
+     height: 0.1vh;
+     background-color: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+  }
+
+
+.about-text h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about-text h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about-text p{
+    color: #fff;
+    padding: 20px 0px;
+    width: 504px;
+    text-align: left;
+}
+
+.btn{
+    width: 20%;
+}
+
+#tam {
+    width: 300px;
+    height: 400px;
+}
+
+.text h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 90px 0px 20px;
+}
+
+.video h5{
+    color: #fff;
+    padding: 20px 0px 0px;
+}
+
